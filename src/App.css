@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@100&family=Quicksand:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: rgb(88, 87, 87);
+}
+
+.navbar{
+    width: 100%;
+    background: grey;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.home,  .products, .about, .order-summary, .no-match, .featured-products, .new-products, .users, .user-details, .admin, .profile{
+    padding-left: 20px;
+}
+
+button{
+    border: 0;
+    border-radius: 19px;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    background: rgb(0, 145, 255);
+    color: white;
+    box-shadow: 1px 1px 4px rgb(62, 61, 61);
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 4px;
+    border-radius: 5px;
+    transition: border 0.4s, background 0.4s;
+}
+
+a:hover{
+    border: 2px solid blue;
+    background: rgb(223, 225, 227);
+}
+
+
+a.active{
+    border: 2px solid blue;
+    background: rgb(223, 225, 227);
+}
+
+.products input{
+    height: 30px;
+    padding: 2px 6px;
+}
+
+nav{
+    background: rgb(215, 215, 215);
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a{
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+}
+
+.users{
+    margin-bottom: 20px;
+}
+
+.users-btn{
+    display: flex;
+    gap: 
+    20px;
+    padding-top: 0;
+    padding: 20px;
+}
+
+.show-users{
+    padding-left: 20px;
+}
